@@ -10,5 +10,4 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: Example Name
-* ID: *YourIdHere*
+* Name: Nguyen Ngoc Chien ID: USTHBI7-027
