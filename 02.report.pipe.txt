@@ -1,0 +1,18 @@
+ubuntu@ubuntu:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ubuntu@ubuntu:~$ wc -l/etc/passwd
+wc: invalid option -- '/'
+Try `wc --help' for more information.
+ubuntu@ubuntu:~$ wc -l /etc/passwd
+34 /etc/passwd
+ubuntu@ubuntu:~$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          1001        912         89          0        144        372
+-/+ buffers/cache:        394        606
+Swap:            0          0          0
+ubuntu@ubuntu:~$ grep -m 1 'cpu cores' /proc/cpuinfo
+cpu cores	: 1
+ubuntu@ubuntu:~$ cd ~/Pictures
+ubuntu@ubuntu:~/Pictures$ find -name "*.jpg" | wc -l
+0
+
